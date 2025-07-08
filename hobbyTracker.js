@@ -42,3 +42,5 @@ console.log("Total time spent:", totalTime(hobbyLog), "minutes");
 console.log("Unique hobbies:", uniqueHobbies(hobbyLog));
 console.log("Sessions longer than 30 min:", longSessions(hobbyLog, 30));
 console.log("Number of relaxed sessions:", countMood(hobbyLog, "relaxed"));
+
+console.log("Number of excited sessions:", countMood(hobbyLog, "excited"));
